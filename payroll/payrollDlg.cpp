@@ -278,7 +278,7 @@ void CpayrollDlg::OnBnClickedbtnprocessit()
 
 	string strovertimeamount = to_string(overtimeamountpay);
 	CString totalovertimeamount(strovertimeamount.c_str());
-	SetDlgItemText(txtOvertimeHours, totalovertimeamount);
+	SetDlgItemText(txtOvertimeAmount, totalovertimeamount);
 
 	string strtotalearnings = to_string(totalearnings);
 	CString CStotalearnings(strtotalearnings.c_str());
